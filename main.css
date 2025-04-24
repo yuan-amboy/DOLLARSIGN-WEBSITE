@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f2f2f2; /* Light grey for the main background */
+    background-image: url('images/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,13 +31,17 @@ body {
 /* Navigation Bar */
 .navbar {
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 8%;
-    background-color: black;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90vw;
+    max-width: 90vw;
+    min-width: 600px;
+    height: 30px;
+    background-color: rgb(216, 216, 216);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     padding: 10px 20px;
+    border-radius: 3px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,10 +57,9 @@ body {
 }
 
 .logo {
-    height: 45px;
+    height: 30px;
     cursor: pointer;
     display: block;
-    filter: invert(1);
 }
 
 .nav-icons {
@@ -75,13 +78,11 @@ body {
 }
 
 .cart-icon {
-    margin-right: 50px;
-    filter: invert(1);
+    margin-right: 20px;
 }
 
 .user-icon {
     margin-right: 30px;
-    filter: invert(1);
 }
 
 .user-icon, .cart-icon {
@@ -110,7 +111,6 @@ body {
     width: 25px;
     height: auto;
     display: block;
-    filter: invert(1);
     transition: opacity 0.3s ease-in-out;
 }
 
@@ -142,6 +142,8 @@ body {
     width: 300px;
     height: 320px;
     background-color: rgba(216, 216, 216);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 0px 3px 3px 0px;
     overflow: hidden;
     transition: left 0.3s ease-in-out;
     z-index: 998;
@@ -178,6 +180,7 @@ body {
     display: block;
     padding: 12px;
     transition: background 0.1s;
+    border-radius: 3px;
 }
 
 .menu-section ul li a:hover {
@@ -197,9 +200,11 @@ body {
     max-width: 260px;
     padding: 12px; 
     border: 1.5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px; 
     font-size: 16px; 
     outline: none;
     background: white; 
+    transition: box-shadow 0.3s ease, border 0.3s ease;
     text-align: left;
 }
 
@@ -239,6 +244,7 @@ body {
     max-width: 300px;
     padding: 10px;
     border: 2px solid #333;
+    border-radius: 3px;
     font-size: 14px;
     outline: none;
     transition: 0.3s ease-in-out;
@@ -250,11 +256,10 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 20px;
+    padding: 50px 0px 80px;
     max-width: 100%;
     margin: 0 auto;
     align-items: flex-start;
-    padding-top: 50px;
 }
 
 .product-card {
@@ -292,11 +297,13 @@ a.product-link {
 
 .product-container {
     background-color: rgb(216, 216, 216);
+    border-radius: 3px;
     padding: 10px;
     margin: 0px;
     width: 100%;
     max-width: 210px;
     transition: background-color 0.3s ease, width 0.3s ease; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -311,6 +318,7 @@ a.product-link {
 .product-card img {
     width: 200px;
     margin: auto;
+    border-radius: 3px;
     object-fit: contain;
 }
 
@@ -375,6 +383,7 @@ a.product-link {
     background-color: rgb(216, 216, 216);
     display: flex;
     gap: 25px;
+    border-radius: 3px;
     padding: 20px;
     margin: 85px auto 50px;
     width: 100%;
@@ -383,6 +392,7 @@ a.product-link {
     align-items: stretch;
     justify-content: space-between;
     text-align: left;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .product-media {
@@ -395,6 +405,7 @@ a.product-link {
 .product-image {
     max-width: 100%;
     height: auto;
+    border-radius: 3px;
     display: flex;
 }
 
@@ -453,6 +464,7 @@ label {
     width: 40px;
     height: 30px;
     border: 2px solid black;
+    border-radius: 3px;
     background-color: black;
     color: rgb(255, 255, 255);
     font-weight: bold;
@@ -476,6 +488,7 @@ label {
     width: 40px;
     height: 30px;
     border: 2px solid black;
+    border-radius: 3px;
     background-color: black;
     color: rgb(255, 255, 255);
     font-weight: bold;
@@ -490,6 +503,7 @@ label {
     text-align: center;
     font-weight: bold;
     appearance: textfield;
+    border-radius: 3px;
     margin-top: 5px;
 }
 
@@ -501,6 +515,7 @@ label {
 
 .add-to-cart {
     background: black;
+    border-radius: 3px;
     font-weight: bold;
     color: white;
     padding: 8px;
@@ -575,7 +590,9 @@ label {
     letter-spacing: 1px;
     color: black;
     background-color: rgb(216, 216, 216);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     padding: 30px;
+    border-radius: 3px;
 }
 
 .about-us-content {
@@ -590,7 +607,7 @@ footer {
     background-size: cover;
     color: white;
     text-align: center;
-    padding: 50px 0px 50px;
+    padding: 40px 0px 40px;
     font-family: Arial, sans-serif;
     font-size: 12px; 
     font-weight: normal;
@@ -628,6 +645,7 @@ footer {
 
 .newsletter input {
     padding: 20px;
+    border-radius: 3px;
     border: none;
     margin-top: 10px;
 }
@@ -687,7 +705,9 @@ footer {
     text-decoration: none;
     padding: 10px 20px;
     margin-right: 50px;
+    border-radius: 3px;
     font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     z-index: 997;
 }
 
@@ -713,6 +733,8 @@ footer {
     margin: 95px auto;
     padding: 40px;
     background-color: rgb(216, 216, 216);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
     text-align: left;
 }
 
@@ -737,6 +759,7 @@ footer {
     color: #fff;
     background: #000;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
     transition: background 0.3s;
     text-decoration: none;
@@ -770,6 +793,8 @@ footer {
     background: #fff;
     padding: 15px;
     margin-bottom: 10px;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     font-size: 16px;
     color: #333;
 }
@@ -790,6 +815,8 @@ footer {
     font-family: Arial, sans-serif;
     font-size: 16px;
     padding: 10px 20px;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     opacity: 1;
     transition: opacity 0.5s ease;
@@ -825,6 +852,8 @@ footer {
 .popup-content {
     background: rgb(216, 216, 216);
     padding: 30px;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     max-width: 600px;
     width: 100%;
     text-align: center;
@@ -849,6 +878,7 @@ footer {
     background-color: #000;
     color: #fff;
     border: none;
+    border-radius: 3px;
     cursor: pointer;
     font-size: 16px;
     transition: background 0.3s;
@@ -940,6 +970,7 @@ footer {
 .cart-item-img {
     width: 90px;
     height: auto;
+    border-radius: 3px;
 }
 
 /* Quantity Container */
@@ -1008,6 +1039,7 @@ footer {
 
 #checkout-btn {
     font-weight: bold;
+    border-radius: 3px;
     width: 100%;
     padding: 10px;
     background: #000;
