@@ -1,4 +1,8 @@
+** Create database **
+
 CREATE DATABASE login_register_dollarsign
+
+** Create table **
 
 CREATE TABLE users (
     ID INT(11) NOT NULL AUTO_INCREMENT,
