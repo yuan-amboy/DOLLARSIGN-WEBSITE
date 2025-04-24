@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'Nutty Noises';
+    src: url('fonts/nutty-noises-font.woff2') format('woff2');
+}
+
+.brand-name {
+    font-family: 'Nutty Noises', sans-serif;
+    font-size: 80px;
+    font-weight: normal;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 100vh;
+    margin: 0px;
+    color: #000000;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.body-register {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 125vh;
+    margin: 100px;
+    color: #000000;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    position: relative;
+    max-width: 500px;
+    width: 80%;
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Nutty Noises', sans-serif;
+    font-size: 100px;
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+}
+
+.form-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    margin: 0px;
+    border: 1.5px solid rgba(0, 0, 0, 0.3);;
+    border-radius: 3px;
+    background: #ffffff;
+    color: #000000;
+    box-sizing: border-box;
+}
+
+.btn-login {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background: #000000;
+    color: #fff;
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.btn-login:hover {
+    background: #222;
+}
+
+.btn-register {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background: #000000;
+    color: #fff;
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.btn-register:hover {
+    background: #222;
+}
+
+.btn-logout {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background: #000000;
+    color: #fff;
+    padding: 13px 24px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.btn-logout:hover {
+    background: #222;
+}
+
+a {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #222;
+}
+
+.email-notice {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d0e9c6;
+    padding: 15px 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 3px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .alert {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 15px 20px;
+    border-radius: 3px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    animation: slideDown 0.4s ease;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da;
+    color: #842029;
+    border-left: 5px solid #d9534f;
+    border: 1px solid #f5c2c7;
+  }
+  
+  @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
