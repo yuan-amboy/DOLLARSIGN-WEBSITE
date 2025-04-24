@@ -721,11 +721,10 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 10px;
+    padding: 50px 10px 50px;
     max-width: 100%;
     margin: 0px;
     align-items: flex-start;
-    padding-top: 50px;
 }
 
 /** Account User **/
