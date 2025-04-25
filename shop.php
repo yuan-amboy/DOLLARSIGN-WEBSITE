@@ -545,7 +545,7 @@
             <!-- Product 1 -->
             <div class="product-card" onclick="openModal('product1')">
                 <div class="product-image">
-                    <img src="/images/dollar-black-front.jpg" alt="DOLLARSIGN - BLACK">
+                    <img src="images/dollar-black-front.jpg" alt="DOLLARSIGN - BLACK">
                     <div class="product-badge">Popular</div>
                     <div class="quick-view">Quick View</div>
                 </div>
@@ -562,7 +562,7 @@
             <!-- Product 2 -->
             <div class="product-card" onclick="openModal('product2')">
                 <div class="product-image">
-                    <img src="/images/dollar-white-front.jpg"alt="DOLLARSIGN - WHITE">
+                    <img src="images/dollar-white-front.jpg"alt="DOLLARSIGN - WHITE">
                     <div class="quick-view">Quick View</div>
                 </div>
                 <div class="product-info">
@@ -578,7 +578,7 @@
             <!-- Product 3 -->
             <div class="product-card" onclick="openModal('product3')">
                 <div class="product-image">
-                    <img src="/images/dollar-red-front.jpg"alt="DOLLARSIGN - RED">
+                    <img src="images/dollar-red-front.jpg"alt="DOLLARSIGN - RED">
                     <div class="quick-view">Quick View</div>
                 </div>
                 <div class="product-info">
@@ -594,7 +594,7 @@
             <!-- Product 4 -->
             <div class="product-card" onclick="openModal('product4')">
                 <div class="product-image">
-                    <img src="/images/dollar-blue-front.jpg" alt="DOLLARSIGN - BLUE">
+                    <img src="images/dollar-blue-front.jpg" alt="DOLLARSIGN - BLUE">
                     <div class="quick-view">Quick View</div>
                 </div>
                 <div class="product-info">
@@ -610,7 +610,7 @@
             <!-- Product 5 -->
             <div class="product-card" onclick="openModal('product5')">
                 <div class="product-image">
-                    <img src="/images/smoke-weed-black-front.jpg" alt="SMOKE WEED - BLACK">
+                    <img src="images/smoke-weed-black-front.jpg" alt="SMOKE WEED - BLACK">
                     <div class="product-badge">New</div>
                     <div class="quick-view">Quick View</div>
                 </div>
@@ -627,7 +627,7 @@
             <!-- Product 6 -->
             <div class="product-card" onclick="openModal('product6')">
                 <div class="product-image">
-                    <img src="/images/smoke-weed-white-front.jpg"  alt="SMOKE WEED - WHITE">
+                    <img src="images/smoke-weed-white-front.jpg"  alt="SMOKE WEED - WHITE">
                     <div class="quick-view">Quick View</div>
                 </div>
                 <div class="product-info">
@@ -643,7 +643,7 @@
             <!-- Product 7 -->
             <div class="product-card" onclick="openModal('product7')">
                 <div class="product-image">
-                    <img src="/images/smoke-weed-red-front.jpg"  alt="SMOKE WEED - RED">
+                    <img src="images/smoke-weed-red-front.jpg"  alt="SMOKE WEED - RED">
                     <div class="quick-view">Quick View</div>
                 </div>
                 <div class="product-info">
@@ -659,7 +659,7 @@
             <!-- Product 8 -->
             <div class="product-card" onclick="openModal('product8')">
                 <div class="product-image">
-                    <img src="/images/smoke-weed-blue-front.jpg"  alt="SMOKE WEED - BLUE">
+                    <img src="images/smoke-weed-blue-front.jpg"  alt="SMOKE WEED - BLUE">
                     <div class="quick-view">Quick View</div>
                 </div>
                 <div class="product-info">
@@ -675,7 +675,7 @@
             <!-- Product 9 -->
             <div class="product-card" onclick="openModal('product9')">
                 <div class="product-image">
-                    <img src="/images/black-front.jpg" alt="DOLLAR - BLACK">
+                    <img src="images/black-front.jpg" alt="DOLLAR - BLACK">
                     <div class="quick-view">Quick View</div>
                 </div>
                 <div class="product-info">
@@ -691,7 +691,7 @@
             <!-- Product 10 -->
             <div class="product-card" onclick="openModal('product10')">
                 <div class="product-image">
-                    <img src="/images/white-front.jpg"  alt="DOLLAR - WHITE">
+                    <img src="images/white-front.jpg"  alt="DOLLAR - WHITE">
                     <div class="quick-view">Quick View</div>
                 </div>
                 <div class="product-info">
@@ -707,7 +707,7 @@
             <!-- Product 11 -->
             <div class="product-card" onclick="openModal('product11')">
                 <div class="product-image">
-                    <img src="/images/red-front.jpg" alt="DOLLAR - RED">
+                    <img src="images/red-front.jpg" alt="DOLLAR - RED">
                     <div class="product-badge">Hot</div>
                     <div class="quick-view">Quick View</div>
                 </div>
@@ -724,7 +724,7 @@
             <!-- Product 12 -->
             <div class="product-card" onclick="openModal('product12')">
                 <div class="product-image">
-                    <img src="/images/blue-front.jpg" alt="DOLLAR - BLUE">
+                    <img src="images/blue-front.jpg" alt="DOLLAR - BLUE">
                     <div class="quick-view">Quick View</div>
                 </div>
                 <div class="product-info">
